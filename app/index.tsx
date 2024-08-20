@@ -5,7 +5,7 @@ import { View } from 'react-native';
 
 const Index = () => {
   const { user } = useUser();
-  console.log('🚀 ~ Index ~ user:', user);
+  // console.log('🚀 ~ Index ~ user:', user);
 
   const rootNavigationState = useRootNavigationState();
 
